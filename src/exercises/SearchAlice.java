@@ -10,7 +10,7 @@ public class SearchAlice {
         System.out.print("Enter Search Term: ");
         String searchTerm = input.nextLine();
 
-        Boolean hasTerm = sentence.toLowerCase().contains(searchTerm.toLowerCase());
+        boolean hasTerm = sentence.toLowerCase().contains(searchTerm.toLowerCase());
         System.out.print("Sentence contains search term: " + hasTerm);
     }
 }

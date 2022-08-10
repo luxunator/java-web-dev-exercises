@@ -11,8 +11,8 @@ public class ReplaceAlice {
         String searchTerm = input.nextLine();
 
 
-        Integer location = sentence.toLowerCase().indexOf(searchTerm.toLowerCase());
-        Integer termLength = searchTerm.length();
+        int location = sentence.toLowerCase().indexOf(searchTerm.toLowerCase());
+        int termLength = searchTerm.length();
         System.out.println("Index of search term: " + location + " and length of string: " + termLength);
 
         String outSentence = sentence.substring(0, location) + sentence.substring(location + termLength);
